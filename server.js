@@ -197,7 +197,7 @@ http.createServer(function (request, response) {
 
     //       default:
     //           console.log("Check parameters: "+params);
-	}	
+	//}	
        
 
 }).listen(port);
