@@ -1,0 +1,80 @@
+header {
+	color: #0000CC;
+	font:70px Times, sans-sariff;
+	font-size: 50px;
+	text-align:center;
+	text-shadow: 0px 5px 5px #555;
+}
+address{
+	color: #000000;
+	font:10px; Times,sans-sariff;
+	font-size:40%;
+	text-align:center;
+	text-decoration:underline;
+}
+body{
+	/*background-image: url(background.JPG);*/
+	text-align:center;
+	counter-reset:lift;
+}
+.container{
+	text-align:center;
+	color:#000000;
+	
+}
+/*#descrip{
+	text-align:center;
+	color:#ffffff;
+}*/
+#contact img {
+	padding:10px 10px;
+	background-color: #000000;
+	-moz-transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.6s ease-in-out;
+}
+#contact img:hover{
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+#quote:first-letter{
+	text-transform: uppercase;
+}
+#quote {
+	color: #000000;
+	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+	text-align: left;
+}
+#liftin {
+	padding:10px 10px;
+	background-image: url(barbell.png);
+	background-repeat:no-repeat;
+	background-position:50% 10%;
+	background-size: 350px;
+	overflow: hidden;
+	}
+#count:after{
+	content:"Reps:" counter(lift);
+}
+#liftin img {
+	-webkit-transition: opacity 200ms ease;
+	-moz-transition: opacity 200ms ease;
+	-o-transition: opacity 200ms ease;
+
+}
+#liftin img:hover{
+	opacity:0;
+	counter-increment:lift 1;
+}
