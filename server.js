@@ -19,7 +19,7 @@ var port = process.env.PORT || 1337;
 
 http.createServer(function (request, response) {
 	               response.writeHead(200, {"Content-Type": "text/plain"});
-	               response.write("This is the start of something great.");
+	               response.write("This is the start of something great. Also, Maxwell Craft types like an idiot.");
 	               response.end();
     // var pathname = url.parse(request.url).pathname;
     // var url_parts = url.parse(request.url, true); //parse query string
