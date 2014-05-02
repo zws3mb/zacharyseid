@@ -1,4 +1,4 @@
-phase3
-======
+zacharyseid
+===========
 
-CS4720 Project: Team Pepper, Phase 3
+Personal Website
