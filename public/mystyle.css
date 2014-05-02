@@ -13,19 +13,26 @@ address{
 	text-decoration:underline;
 }
 body{
-	/*background-image: url(background.JPG);*/
+	/*background-image: url(amy.PNG);*/
 	text-align:center;
-	counter-reset:lift;
-}
-#pdf{
+	background:black;
 	min-width: 100%;
 	min-height: 100%;
+	padding: 10px;
+}
+#pdf{
+	max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top:auto;
 }
 .textchunk{
 	text-align:left;
 	width:60%;
 	margin-right: auto;
 	margin-left: auto;
+	background-color: #FFFFFF;
 }
 .container{
 	text-align:center;
