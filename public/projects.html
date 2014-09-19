@@ -17,41 +17,37 @@
 </head>
 
 <body>
-
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-        <a class="navbar-brand" href="./index.html">Zachary Seid</a>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-                    <li><a href="./classics.html">Classics</a></li>
-          <li><a href="./statistics.html">Statistics</a></li>
-          <li class="active"><a href="./projects.html">Projects</a></li>
-          <li><a href="./resume.html">Resume</a></li>
-          <li><a href="./gleeclub.html">Glee Club</a></li>
-          <li><a href="./fencing.html">Fencing</a></li>
-          <li><a href="./music.html">Music</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
+<div id="nav"></div>
       <br><br/>
     <br><br/>
     <br><br/>
     <br><br/>
-<div id="container">
+<div id="container">  <div class="content">
+        <h2>Why Computer Science? Why Machine Learning?</h2>
+<p>Few disciplines allow creativity, expression, and innovation on a daily basis. The beauty of natural language is its recursive nature-the infinite combinations of infinite elements--and the unique ownership of a particular expression. Feedback is often immediate, be it a display, a calculation, or new functionality. Machine Learning combines my favorite disciplines--computer science for implementation, statistics for theory and generation of techniques--even classics and language can show up in natural language processing. For some, physics is the applied convergence of disciplines, but for me, I enjoy working on different levels--orchestrating distributed computing or cloud resources to execute a statistically based approach that analyzes some interesting domain-specific feature. I am simply glad there are jobs which correspond to my most engaging passions.</p>
+</div>
+    </div>
+    <div class="content">
+      <h3>Retribution<a href="https://github.com/zws3mb/retribution"><span class="glyphicon glyphicon-plus"></span></a></h3>
+  <p>Created in a 6 person team for CSGame Design Course, taught by Professor Sherriff, this game written ontop the Monogame engine for Microsoft XNA studios features original graphics, original architecture design, and extensive coding in C#. I developed the entire system architecture, though parts of it were modified, as well as implementing the AI, 8/9 of the units, and all accessory aspects of the HUD (health, resources, buttons, help, instructions).</p>
+    <h3>PhaseBook<a href="https://github.com/eea4ue/phase6"><span class="glyphicon glyphicon-plus"></span></a></h3>
+    <p>Semester long project for Web and Mobile development, utilizing PHP and node.js created web-services, MySQL backend and web scraping to smooth collaboration—share class schedules, find open locations, and manage tasks (Team of 3)</p>
+    <h3>Personal CRM<a href="https://github.com/rumit91/4240CRM"><span class="glyphicon glyphicon-plus"></span></a></h3>
+<p>Python application used to manage and display a personal graph of people and their media/relationship to you (Facebook, IMAP, GoogleContacts integrated; SQLite, TKinter). Created in a team of 4 in Principles of Object-oriented Design, with emphasis on data structures and extensible architecture.<a href="https://docs.google.com/viewer?srcid=0Bw1xWFQXOelCdzlIa18tQUdaU2c">Check out the report</a></p>
+<h3>Word-order Data Analysis</h3>
+<p>Word-order Data Analysis-Semi-supervised NLP standalone app(Java) on ~5000 lines of Latin poetry utilizing 
+
+user input and web-scraped dictionary info to categorize part of speech—analysis done in R post-manipulation</p>
+
+    </div>
   <p>Look for updates sharing work on Android applications, Cloud computing, and much more.</p>
   <a href="http://github.com/zws3mb"/>Github Profile</a>
 </div>
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+    <script> 
+$(function() {$("#nav").load("navbar.html");$("#projects").attr("class","active");});
+</script> 
   </body>
   </html>

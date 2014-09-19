@@ -3,12 +3,15 @@ var http = require("http"),
 url = require("url"),
 fs = require('fs'),
 express = require('express'),
+favicon=require('serve-favicon'),
 mysql = require("mysql");
 var project = require("./project");
 var task = require("./task");
 var app = express();
 var port = process.env.PORT || 1337;
+app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(express.static(__dirname + '/public'));
+
 app.get('/', function(req,res) {
   res.sendfile('public/index.html');
 });
